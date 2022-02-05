@@ -1,0 +1,104 @@
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>BIODATA</title>
+        <link rel="stylesheet" href="css/style.css">
+        <script src="https://kit.fontawesome.com/fe328246f5.js" crossorigin="anonymous"></script>
+    </head>
+<body style="height: 950px;">
+    <div class="navbar">
+        <a href="https://drive.google.com/uc?export=download&id=1wbk_IBC2eI4XYpm-27oQJ7RpdUEW9Tlh" class="logo" target="_blank"><i class="fas fa-download">RESUME</i></a>
+        <ul class="nav">
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a class="active" href="#">EDUCATION</a></li>
+            <li><a href="experience.html">EXPERIENCE</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+        </ul>
+    </div>
+
+<div style="text-align:center">
+  <h2>LEVEL OF EDUCATION</h2>
+</div>
+
+<div class="row">
+  <div class="column" onclick="openTab('b1');" style="background:#F95959;">
+    <img src="img/skkp.png" width="144px" height="148px">
+    <p class="edu">PRIMARY</p>
+  </div>
+  <div class="column" onclick="openTab('b2');" style="background:#455D7A;">
+    <img src="img/sais.png" width="148px" height="148px">
+    <p class="edu">SECONDARY</p>
+  </div>  <div class="column" onclick="openTab('b3');" style="background:#970747;">
+    <img src="img/upnm.png" width="148px" height="148px">
+    <p class="edu">DIPLOMA</p>
+  </div>
+  <div class="column" onclick="openTab('b4');" style="background:#4d7c41;">
+    <img src="img/uitm.png" width="120px" height="148px">
+    <p class="edu">DEGREE</p>
+   </div>
+</div>
+  
+<div id="b1" class="containerTab" style="display:none;background:#ebabab">
+  <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+  <h2>SEKOLAH KEBANGSAAN KEDAI PIAH</h2>
+  <p>when i'm in my primary school, i became the assistant of the head student and i have got 5A's for my UPSR examination</p>
+</div>
+
+<div id="b2" class="containerTab" style="display:none;background:#92baeb">
+  <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+  <h2>SEKOLAH MENENGAH SAINS SETIU</h2>
+  <p>The achievement and involvement that i had during Secondary School are as follows:</p>
+  <ul>
+    <li>President Of France Club</li>
+    <li>Youth Exploring Smart Camp (Yes-SBP), NationalCivics Bureau</li>
+    <li>LPPKN Teenage Community Camp, A FamosaResort</li>
+    <li>Treasurer Of Peer Facilitators</li>
+    <li>Joined marching match of Malaysia School YouthCadet Crops and Fire And Rescue Cadet Association,state level</li>
+    <li>Total marks for curriculum activities is 8.40/10.0</li>
+  </ul>
+  <h2>examination result:</h2>
+  <ul>
+    <li>PMR : 6A 2B</li>
+    <li>SPM (science stream) : 1A+ 1A 4A- 3B+</li>
+  </ul>
+</div>
+
+<div id="b3" class="containerTab" style="display:none;background:#ee7caf">
+  <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+    <h2>UNIVERSITI PERTAHANAN NASIONAL MALAYSIA (UPNM)</h2>
+    <h3>Diploma Business Administration</h3>
+    <p>The achievement and involvement that i had during diploma level are as follows:
+    <ul><li>Academic And Spiritual Committee Of PADU(Persatuan Mahasiswa Diploma UPNM)</li>
+      <li>An Active Member Of Silat Cekak Pusaka Hanafi</li>
+      <li>Attend To Kursus Asas Perajurit Muda Siri1/2017(Wataniah REJ515)</li>
+      <li>Participate Young Leaders Motivator</li>
+    </ul>
+    <h2>examination result:</h2>
+    <ul>
+        <li>CGPA : 3.85</li>
+    </ul></p>
+</div>
+      
+<div id="b4" class="containerTab" style="display:none;background:#95d386">
+  <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+    <h2>UNIVERSITI TEKNOLOGI MARA (UiTM)</h2>
+    <h3>Bachelor Degree of Finance</h3>
+    <p>As i only having online learning during my degree level, i only try to get involve with something that can sharpen my skills on designing, digital and knowledge. For example, photoshop basic designing, skills in microsoft excel and powerpoint workshop and  also technical analysis competition that have been implemented by my university</p>
+    <h2>examination result:</h2>
+    <ul>
+      <li>CGPA until current semester : 3.87</li>
+    </ul></p>
+</div>
+
+    
+<div class="footer">
+  <p>COPYRIGHT 2022 | NIK AHDA</p>
+</div>
+
+<script>
+function openTab(tabName) {var i, x;x = document.getElementsByClassName("containerTab");for (i = 0; i < x.length; i++) {x[i].style.display = "none";}
+document.getElementById(tabName).style.display = "block";}</script>
+
+</body>
+</html>
